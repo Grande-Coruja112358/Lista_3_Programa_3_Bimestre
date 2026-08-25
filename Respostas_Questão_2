@@ -1,0 +1,6 @@
+grana = int(input("Saldo de moedas: "))
+valor_skin = int(input("Valor da skin: "))
+if grana >= valor_skin:
+    print(f' Compra Realizada! Aproveite. ')
+else:
+    print(f' Dinheiro insuficiente... Faltam {valor_skin - grana} para a compra. ')

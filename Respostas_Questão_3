@@ -1,0 +1,9 @@
+horas = float(input("Digite a quantidade de horas: "))
+if horas <= 1:
+    print(f'Expectador casual ')
+elif horas <= 3 and horas > 1:
+    print(f' Maratonista Iniciante')
+elif horas <= 5 and horas < 3:
+    print(f' Maratonista profissional')
+else:
+    print(f' Alerta Vermelho! Desligue a tela e vá tocar grama!!')

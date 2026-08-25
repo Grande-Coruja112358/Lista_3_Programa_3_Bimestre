@@ -1,0 +1,10 @@
+mensagem = input("Digite a sua mensagem: ")
+if len(mensagem) >= 3 and len(mensagem) < 140:
+	print(f'Mensagem enviada com sucesso! ')
+else:
+	print(f'Mensagem bloqueada por violar as diretrizes de span! ')
+x = 0
+while x < 1000:
+	print(f' Ação')
+for x < 1000:
+	print(f'Ação')
